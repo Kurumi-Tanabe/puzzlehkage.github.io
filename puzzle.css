@@ -1,0 +1,40 @@
+body{
+    background-color: #dfedc4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#board {
+    width: 410px;
+    height: 410px;
+    border: 2px solid #23153b;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 80.2px;
+    height: 80.2px;
+    border: 0.1px solid #23153b;
+}
+
+
+#pieces {
+    width: 1065px;
+    height: 170px;
+    border: 2px solid #23153b;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces img {
+    width: 80.2px;
+    height: 80.2px;
+    border: 0.1px solid #23153b;
+}
